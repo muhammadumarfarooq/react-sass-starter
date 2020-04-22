@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+// Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+// Fontawesome
+import "@fortawesome/fontawesome-free/css/all.min.css";
+// SASS
+import "./styles/main.scss";
+
+
 
 ReactDOM.render(
   <React.StrictMode>
